@@ -30,10 +30,10 @@ for(var i=0; i<button.length; i++){
 
         }
         else if(value=='AC'){
-            operator=null
-            operand1=0
+            operator=null;
+            operand1=0;
             display.innerText=null;
-            operand2=null
+            operand2=null;
         }
         else if(value=='C'){
             display.innerText= parseInt(display.innerText/10);
